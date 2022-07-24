@@ -1,0 +1,214 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18%;
+    /* margin-left: 750px; */
+   position:relative;
+   left: 40%;
+   top:30%;
+   justify-content: center;
+    margin-top: 170px;
+    height: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+
+
+  .fa {
+    padding: 2px;
+    font-size: 30px;
+    width: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+  
+  .fa-facebook {
+    background-color: #3B5998;
+    color: white;
+  }  
+
+  .secondcard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18%;
+    margin-left: 40%;
+    margin-top: 20px;
+    height: 50px;
+  }
+  
+  .secondcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.loginbutton {
+    background-color: lightblue;
+    border: none;
+    width: 95%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+.bottomfooter{
+  left:0;
+  bottom:0;
+  width:100%;
+  height:80px;
+  background-color:white;
+  margin-top: 5%;
+}
+.text{
+  display:flex;
+  font-size:17px;
+  color: grey;
+  margin-left: 19%;
+}
+.list{
+  list-style-type:none;
+}
+.listelement{
+  text-decoration:none;
+  color: grey;
+  font-size:14px;
+}
+a.listelement:hover{
+  text-decoration:underline;
+}
+.listelementtwo{
+  margin-left:45%;
+  text-decoration:none;
+  color:grey;
+  font-size:14px;
+  margin-top: -10px;
+}
+.applogos{
+  height: 6%;
+  width: 6%;
+}
+.listchange{
+  list-style-type:none;
+}
+.listchangeapi{
+  list-style-type:none;
+}
+.listchangeterms{
+  list-style-type:none;
+}
+.listchangetopaccounts{
+  list-style-type: none;
+}
+.listchangehashtags{
+  list-style-type: none;
+}
+.listchangelocations{
+  list-style-type: none;
+}
+.listchangeinstagramlite{
+  list-style-type: none;
+}
+.listchangecontact{
+  list-style-type: none;
+}
+.listelementtopaccount{
+  text-decoration:none;
+  color: grey;
+  font-size:14px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+  .card {
+    width: 90%;
+    margin-left: 1%;
+    position:relative;
+    left: 3.5%;
+    top:1%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .applogos {
+    height: 40%;
+    width: 40%;
+    position: relative;
+    left: -120px;
+  }
+  .secondcard{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .text{
+    margin-left: 2px;
+    margin:0,0,0,0;
+  }
+  .listelementtwo{
+    margin-left: 20%;
+    margin-top: 28%;
+  }
+ .bottomfooter{
+  width: 100%;
+  }
+  .listchange{
+    position:relative;
+    top:22%;
+    right: 410%;
+    text-decoration:none;
+  }
+  .listchangeapi{
+    position:relative;
+    top:22%;
+    right:550%;
+    text-decoration:none;
+  }
+  .listchangeterms{
+    position:relative;
+    top:22%;
+    right: 470%;
+    text-decoration:none;
+  }
+  .listchangetopaccounts{
+    position:relative;
+    top:22%;
+    right: 380%;
+    text-decoration: none;
+  }
+  .listchangehashtags{
+    position: relative;
+    top: 22%;
+    right: 420%;
+    text-decoration: none;
+  }
+  .listchangelocations{
+    position: relative;
+    top: 63%;
+    right: 790%;
+    text-decoration:none;
+  }
+  .listchangeinstagramlite{
+    position: relative;
+    top: 63%;
+    right: 790%;
+    text-decoration: none;
+  }
+  .listchangecontact{
+    position: relative;
+    top: 63%;
+    right: 740%;
+    text-decoration: none;
+  }
+  .listelementtopaccount{
+    width: 100;
+    text-align:end;
+    margin: 0,0,0,0;
+
+  }
+}
